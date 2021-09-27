@@ -1,0 +1,25 @@
+.aurore-slider{
+	overflow-x:hidden;
+	position:relative; 
+}
+
+.inwrap{
+	overflow-x:hidden;
+	position:relative;
+}
+ 
+
+.pseudolayer{
+	transition:left .5s ease;
+	display:flex;
+	position:absolute;
+	top:0;
+}
+
+.prev,.next{
+	z-index:1000;font-size:20px;text-align:center;
+    cursor: pointer;
+    width: 15px;
+    display: inline-block;
+    height: 15px;
+}
