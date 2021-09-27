@@ -1,0 +1,1491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- Fonts -->
+  <link rel="preload" href="./assets/fonts/lfda.ttf" as="font" type="font/ttf" crossorigin="">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700&amp;family=Pacifico&amp;display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+  <!-- Link Style's -->
+  <link rel="stylesheet" href="assets/style/slick.css">
+  <link rel="stylesheet" href="assets/style/main.css">
+</head>
+<body>
+  <div class="site-container">
+    <div class="overlay"></div>
+    <header class="header">
+      <section class="header-top">
+        <div class="container">
+          <span>La Ferme des Animaux, votre animalerie en ligne</span>
+          <div class="phone">
+            <i class="icon-phone"></i>
+            <span>Appelez-nous au 04 28 044 044 du lundi au vendredi de 9h à 18h00 (appel non surtaxé)</span>
+          </div>
+          <div class="delivery">
+            <i class="icon-truck"></i>
+            <span>Livraison 24/72h gratuite dès 49 € d'achat en France métropolitaine</span>
+          </div>
+        </div>
+      </section>
+      <section class="header-main">
+        <div class="container">
+          <div class="burger-wrapper">
+            <button class="burger">
+              <i class="icon-burger"></i>
+            </button>
+          </div>
+          <a href="#" class="logo">
+            <img src="assets/img/logo.png" alt="Logo Of Animaux">
+          </a>
+          <div class="interact">
+            <div class="user">
+              <button class="user__trigger">
+                <i class="icon-user"></i>
+                <span>Connexion</span>
+              </button>
+            </div>
+            <div class="cart">
+              <button class="cart__trigger">
+                <i class="icon-cart"></i>
+                <span>Mon panier</span>
+              </button>
+              <div class="cart-count">
+                <span>0</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <nav class="nav">
+        <div class="container">
+          <div class="nav-header">
+            <div class="burger-wrapper">
+              <button class="burger">
+                <i class="icon-close"></i>
+              </button>
+            </div>
+            <a href="#" class="logo">
+              <img src="assets/img/logo.png" alt="Logo Of Animaux">
+            </a>
+            <span>Menu</span>
+          </div>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <button class="nav__trigger">
+                <i class="icon-chiens"></i>
+                <span>Chiens</span>
+              </button>
+            </li>
+            <li class="nav-item">
+              <button class="nav__trigger chats">
+                <i class="icon-chats"></i>
+                <span>Chats</span>
+              </button>
+            </li>
+            <li class="nav-item">
+              <button class="nav__trigger rongeurs">
+                <i class="icon-rongeurs"></i>
+                <span>Rongeurs</span>
+              </button>
+            </li>
+            <li class="nav-item">
+              <button class="nav__trigger poissons">
+                <i class="icon-poissons"></i>
+                <span>Poissons</span>
+              </button>
+            </li>
+            <li class="nav-item">
+              <button class="nav__trigger oiseaux">
+                <i class="icon-oiseaux"></i>
+                <span>Oiseaux</span>
+              </button>
+            </li>
+            <li class="nav-item">
+              <button class="nav__trigger elevage">
+                <i class="icon-elevage"></i>
+                <span>Elevage</span>
+              </button>
+            </li>
+            <li class="nav-item">
+              <button class="nav__trigger bassins">
+                <i class="icon-bassins"></i>
+                <span>Bassins</span>
+              </button>
+            </li>
+            <li class="nav-item">
+              <button class="nav__trigger reptiles">
+                <i class="icon-reptiles"></i>
+                <span>Reptiles</span>
+              </button>
+            </li>
+            <li class="nav-item">
+              <button class="nav__trigger promos">
+                <i class="icon-en-promotion"></i>
+                <span>Promos</span>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <section class="offer">
+        <div class="container">
+          <button class="offer-btn">
+            <i class="icon-next"></i>
+          </button>
+          <a href="#" class="offer__link">7 € offerts sur votre 1ère commande avec le code HAPPY7 dès 69 € d'achat !</a>
+          <button class="offer-btn">
+            <i class="icon-next"></i>
+          </button>
+        </div>
+      </section>
+    </header>
+    <main class="main">
+      <section class="breadcrumbs chats">
+        <div class="container">
+          <ul class="breadcrumbs-list">
+            <li class="breadcrumbs-item category">
+              <i class="icon-chats"></i>
+            </li>
+            <li class="breadcrumbs-item">
+              <a href="#" class="breadcrumbs__link">Animalerie en ligne</a>
+            </li>
+            <li class="breadcrumbs-item">
+              <a href="#" class="breadcrumbs__link">Chats</a>
+            </li>
+            <li class="breadcrumbs-item">
+              <a href="#" class="breadcrumbs__link">Jouets</a>
+            </li>
+            <li class="breadcrumbs-item">
+              <a href="#" class="breadcrumbs__link">Jouets éducatifs</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="filters">
+        <div class="container">
+          <div class="filters-header">
+            <button class="filters__trigger">
+              <i class="icon-close"></i>
+            </button>
+            <span>Filtres</span>
+          </div>
+          <div class="filters-table">
+            <div class="filters-wrapper">
+              <button class="dropdown__trigger active">
+                <h3>Prix</h3>
+                <i class="icon-next-xl"></i>
+              </button>
+              <div class="dropdown-list active">
+                <div id="slider-range"></div>
+                <div class="slider-price">
+                  <label for="amount">Entre</label>
+                  <div class="slider-price-wrapper">
+                    <input type="text" id="amount" readonly>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="filters-wrapper">
+              <button class="dropdown__trigger active">
+                <h3>Marque</h3>
+                <i class="icon-next-xl"></i>
+              </button>
+              <div class="dropdown-list active">
+                <div class="filters-list">
+                  <a href="#" class="filters-item">
+                    <input type="checkbox" id="step" checked>
+                    <span class="filters-item__title">Trixie</span>
+                    <span class="amount">8</span>
+                  </a>
+                  <a href="#" class="filters-item">
+                    <input type="checkbox" id="step">
+                    <span class="filters-item__title">Cat'it</span>
+                    <span class="amount">5</span>
+                  </a>
+                  <a href="#" class="filters-item">
+                    <input type="checkbox" id="step">
+                    <span class="filters-item__title">Kong</span>
+                    <span class="amount">5</span>
+                  </a>
+                  <a href="#" class="filters-item">
+                    <input type="checkbox" id="step">
+                    <span class="filters-item__title">Ferplast</span>
+                    <span class="amount">4</span>
+                  </a>
+                  <a href="#" class="filters-item">
+                    <input type="checkbox" id="step">
+                    <span class="filters-item__title">Savic</span>
+                    <span class="amount">4</span>
+                  </a>
+                  <div class="dropdown-sublist">
+                    <a href="#" class="filters-item">
+                      <input type="checkbox" id="step">
+                      <span class="filters-item__title">EBI</span>
+                      <span class="amount">2</span>
+                    </a>
+                    <a href="#" class="filters-item">
+                      <input type="checkbox" id="step">
+                      <span class="filters-item__title">Pet Safe</span>
+                      <span class="amount">2</span>
+                    </a>
+                    <a href="#" class="filters-item">
+                      <input type="checkbox" id="step">
+                      <span class="filters-item__title">Bubimex</span>
+                      <span class="amount">1</span>
+                    </a>
+                    <a href="#" class="filters-item">
+                      <input type="checkbox" id="step">
+                      <span class="filters-item__title">Pipolino</span>
+                      <span class="amount">1</span>
+                    </a>
+                    <a href="#" class="filters-item">
+                      <input type="checkbox" id="step">
+                      <span class="filters-item__title">Zolux</span>
+                      <span class="amount">1</span>
+                    </a>
+                  </div>
+                  <button class="dropdown__subtrigger">
+                    Voir moins
+                    <i class="icon-next"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="filters-wrapper">
+              <button class="dropdown__trigger active">
+                <h3>Consistance</h3>
+                <i class="icon-next-xl"></i>
+              </button>
+              <div class="dropdown-list active">
+                <div class="filters-list">
+                  <a href="#" class="filters-item">
+                    <input type="checkbox" id="step">
+                    <span class="filters-item__title">Dur</span>
+                    <span class="amount">21</span>
+                  </a>
+                  <a href="#" class="filters-item">
+                    <input type="checkbox" id="step">
+                    <span class="filters-item__title">Mou</span>
+                    <span class="amount">3</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="filters-wrapper">
+              <button class="dropdown__trigger active">
+                <h3>Couleur</h3>
+                <i class="icon-next-xl"></i>
+              </button>
+              <div class="dropdown-list active">
+                <div class="filters-list">
+                  <a href="#" class="filters-item">
+                    <input type="checkbox" id="step">
+                    <span class="filters-item__title">Blanc</span>
+                    <span class="amount">14</span>
+                  </a>
+                  <a href="#" class="filters-item">
+                    <input type="checkbox" id="step">
+                    <span class="filters-item__title">Bleu</span>
+                    <span class="amount">9</span>
+                  </a>
+                  <a href="#" class="filters-item">
+                    <input type="checkbox" id="step">
+                    <span class="filters-item__title">Selon arrivage</span>
+                    <span class="amount">9</span>
+                  </a>
+                  <a href="#" class="filters-item">
+                    <input type="checkbox" id="step">
+                    <span class="filters-item__title">Vert</span>
+                    <span class="amount">6</span>
+                  </a>
+                  <a href="#" class="filters-item">
+                    <input type="checkbox" id="step">
+                    <span class="filters-item__title">Rose</span>
+                    <span class="amount">5</span>
+                  </a>
+                  <div class="dropdown-sublist">
+                    <a href="#" class="filters-item">
+                      <input type="checkbox" id="step">
+                      <span class="filters-item__title">Rouge</span>
+                      <span class="amount">3</span>
+                    </a>
+                    <a href="#" class="filters-item">
+                      <input type="checkbox" id="step">
+                      <span class="filters-item__title">Orange</span>
+                      <span class="amount">2</span>
+                    </a>
+                    <a href="#" class="filters-item">
+                      <input type="checkbox" id="step">
+                      <span class="filters-item__title">Vert clair</span>
+                      <span class="amount">2</span>
+                    </a>
+                    <a href="#" class="filters-item">
+                      <input type="checkbox" id="step">
+                      <span class="filters-item__title">Marron</span>
+                      <span class="amount">1</span>
+                    </a>
+                    <a href="#" class="filters-item">
+                      <input type="checkbox" id="step">
+                      <span class="filters-item__title">Violet</span>
+                      <span class="amount">1</span>
+                    </a>
+                  </div>
+                  <button class="dropdown__subtrigger">
+                    Voir moins
+                    <i class="icon-next"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="filters-wrapper">
+              <button class="dropdown__trigger active">
+                <h3>Difficulte</h3>
+                <i class="icon-next-xl"></i>
+              </button>
+              <div class="dropdown-list active">
+                <div class="filters-list">
+                  <a href="#" class="filters-item">
+                    <input type="checkbox" id="step">
+                    <span class="filters-item__title">Niveau 2 - Intermédiaire</span>
+                    <span class="amount">14</span>
+                  </a>
+                  <a href="#" class="filters-item">
+                    <input type="checkbox" id="step">
+                    <span class="filters-item__title">Niveau 1 - Débutant</span>
+                    <span class="amount">6</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="filters-wrapper">
+              <button class="dropdown__trigger active">
+                <h3>Forme de jouet</h3>
+                <i class="icon-next-xl"></i>
+              </button>
+              <div class="dropdown-list active">
+                <div class="filters-list">
+                  <a href="#" class="filters-item">
+                    <input type="checkbox" id="step">
+                    <span class="filters-item__title">Ronde</span>
+                    <span class="amount">16</span>
+                  </a>
+                  <a href="#" class="filters-item">
+                    <input type="checkbox" id="step">
+                    <span class="filters-item__title">Plateau</span>
+                    <span class="amount">6</span>
+                  </a>
+                  <a href="#" class="filters-item">
+                    <input type="checkbox" id="step">
+                    <span class="filters-item__title">Ovale</span>
+                    <span class="amount">2</span>
+                  </a>
+                  <a href="#" class="filters-item">
+                    <input type="checkbox" id="step">
+                    <span class="filters-item__title">Tour</span>
+                    <span class="amount">2</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="filters-wrapper">
+              <button class="dropdown__trigger active">
+                <h3>Jouet sonore</h3>
+                <i class="icon-next-xl"></i>
+              </button>
+              <div class="dropdown-list active">
+                <div class="filters-list">
+                  <a href="#" class="filters-item">
+                    <input type="checkbox" id="step">
+                    <span class="filters-item__title">Non</span>
+                    <span class="amount">26</span>
+                  </a>
+                  <a href="#" class="filters-item">
+                    <input type="checkbox" id="step">
+                    <span class="filters-item__title">Oui</span>
+                    <span class="amount">1</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="filters-wrapper">
+              <button class="dropdown__trigger active">
+                <h3>Mastication</h3>
+                <i class="icon-next-xl"></i>
+              </button>
+              <div class="dropdown-list active">
+                <div class="filters-list">
+                  <a href="#" class="filters-item">
+                    <input type="checkbox" id="step">
+                    <span class="filters-item__title">Modérée</span>
+                    <span class="amount">2</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="filters-wrapper">
+              <button class="dropdown__trigger active">
+                <h3>Matière</h3>
+                <i class="icon-next-xl"></i>
+              </button>
+              <div class="dropdown-list active">
+                <div class="filters-list">
+                  <a href="#" class="filters-item">
+                    <input type="checkbox" id="step">
+                    <span class="filters-item__title">Plastique</span>
+                    <span class="amount">23</span>
+                  </a>
+                  <a href="#" class="filters-item">
+                    <input type="checkbox" id="step">
+                    <span class="filters-item__title">Peluche</span>
+                    <span class="amount">3</span>
+                  </a>
+                  <a href="#" class="filters-item">
+                    <input type="checkbox" id="step">
+                    <span class="filters-item__title">Carton</span>
+                    <span class="amount">2</span>
+                  </a>
+                  <a href="#" class="filters-item">
+                    <input type="checkbox" id="step">
+                    <span class="filters-item__title">Acier chromé</span>
+                    <span class="amount">1</span>
+                  </a>
+                  <a href="#" class="filters-item">
+                    <input type="checkbox" id="step">
+                    <span class="filters-item__title">Bois</span>
+                    <span class="amount">1</span>
+                  </a>
+                  <div class="dropdown-sublist">
+                    <a href="#" class="filters-item">
+                      <input type="checkbox" id="step">
+                      <span class="filters-item__title">Mousse</span>
+                      <span class="amount">1</span>
+                    </a>
+                    <a href="#" class="filters-item">
+                      <input type="checkbox" id="step">
+                      <span class="filters-item__title">PVC</span>
+                      <span class="amount">1</span>
+                    </a>
+                    <a href="#" class="filters-item">
+                      <input type="checkbox" id="step">
+                      <span class="filters-item__title">Plume</span>
+                      <span class="amount">1</span>
+                    </a>
+                    <a href="#" class="filters-item">
+                      <input type="checkbox" id="step">
+                      <span class="filters-item__title">Polyester</span>
+                      <span class="amount">1</span>
+                    </a>
+                    <a href="#" class="filters-item">
+                      <input type="checkbox" id="step">
+                      <span class="filters-item__title">Tissu</span>
+                      <span class="amount">1</span>
+                    </a>
+                  </div>
+                  <button class="dropdown__subtrigger">
+                    Voir moins
+                    <i class="icon-next"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="filters-wrapper">
+              <button class="dropdown__trigger active">
+                <h3>Style</h3>
+                <i class="icon-next-xl"></i>
+              </button>
+              <div class="dropdown-list active">
+                <div class="filters-list">
+                  <a href="#" class="filters-item">
+                    <input type="checkbox" id="step">
+                    <span class="filters-item__title">Ludique</span>
+                    <span class="amount">13</span>
+                  </a>
+                  <a href="#" class="filters-item">
+                    <input type="checkbox" id="step">
+                    <span class="filters-item__title">Fun</span>
+                    <span class="amount">7</span>
+                  </a>
+                  <a href="#" class="filters-item">
+                    <input type="checkbox" id="step">
+                    <span class="filters-item__title">Design</span>
+                    <span class="amount">4</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="filters-wrapper">
+              <button class="dropdown__trigger active">
+                <h3>Type de jouet</h3>
+                <i class="icon-next-xl"></i>
+              </button>
+              <div class="dropdown-list active">
+                <div class="filters-list">
+                  <a href="#" class="filters-item">
+                    <input type="checkbox" id="step">
+                    <span class="filters-item__title">Circuit</span>
+                    <span class="amount">14</span>
+                  </a>
+                  <a href="#" class="filters-item">
+                    <input type="checkbox" id="step">
+                    <span class="filters-item__title">Distributeur</span>
+                    <span class="amount">8</span>
+                  </a>
+                  <a href="#" class="filters-item">
+                    <input type="checkbox" id="step">
+                    <span class="filters-item__title">Canne à pêche</span>
+                    <span class="amount">2</span>
+                  </a>
+                  <a href="#" class="filters-item">
+                    <input type="checkbox" id="step">
+                    <span class="filters-item__title">Plume</span>
+                    <span class="amount">2</span>
+                  </a>
+                  <a href="#" class="filters-item">
+                    <input type="checkbox" id="step">
+                    <span class="filters-item__title">Balle</span>
+                    <span class="amount">1</span>
+                  </a>
+                  <div class="dropdown-sublist">
+                    <a href="#" class="filters-item">
+                      <input type="checkbox" id="step">
+                      <span class="filters-item__title">Jouet</span>
+                      <span class="amount">1</span>
+                    </a>
+                    <a href="#" class="filters-item">
+                      <input type="checkbox" id="step">
+                      <span class="filters-item__title">Peluche</span>
+                      <span class="amount">1</span>
+                    </a>
+                    <a href="#" class="filters-item">
+                      <input type="checkbox" id="step">
+                      <span class="filters-item__title">Station de massage</span>
+                      <span class="amount">1</span>
+                    </a>
+                  </div>
+                  <button class="dropdown__subtrigger">
+                    Voir moins
+                    <i class="icon-next"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="filters-wrapper show-item">
+              <h3>Vous aimerez aussi</h3>
+              <div class="filters-list">
+                <a href="#" class="filters-item">
+                  <span class="filters-item__title">Jouets</span>
+                </a>
+                <a href="#" class="filters-item">
+                  <span class="filters-item__title">Balles et petits jouets</span>
+                </a>
+                <a href="#" class="filters-item">
+                  <span class="filters-item__title">Jouet à plumes</span>
+                </a>
+                <a href="#" class="filters-item">
+                  <span class="filters-item__title">Canne à pêche</span>
+                </a>
+                <a href="#" class="filters-item">
+                  <span class="filters-item__title">Souris chat</span>
+                </a>
+                <a href="#" class="filters-item">
+                  <span class="filters-item__title">Tunnel</span>
+                </a>
+                <a href="#" class="filters-item">
+                  <span class="filters-item__title">Laser</span>
+                </a>
+                <a href="#" class="filters-item">
+                  <span class="filters-item__title">Peluche</span>
+                </a>
+                <a href="#" class="filters-item">
+                  <span class="filters-item__title">Herbe à chat</span>
+                </a>
+              </div>
+            </div>
+            <div class="filters-wrapper more__trigger">
+              <button class="show-more">Voir plus de filtres</button>
+            </div>
+          </div>
+        </div>
+        <div class="filters-footer">
+          <button class="filters-apply">Appliquer les filtres</button>
+        </div>
+      </section>
+      <section class="product">
+        <div class="page-info">
+          <div class="container">
+            <h1>Jouet éducatif pour chat</h1>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+              Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+              Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
+              Quis autem vel eumiure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+            </p>
+            <button class="show-more">
+              Lire la suite
+              <i class="icon-next"></i>
+            </button>
+          </div>
+        </div>
+        <div class="sort">
+          <div class="container">
+            <div class="filters-active">
+              <div class="filters-list">
+                <span>Filtres actifs:</span>
+                <button class="filters-item">
+                  <span>Trixie (8)</span>
+                  <i class="icon-close"></i>
+                </button>
+              </div>
+              <button class="filters-reset">Effacer les filtres</button>
+            </div>
+            <div class="filters-fixed">
+              <button class="filters__trigger">
+                <i class="icon-filters"></i>
+                <span>Filtrer</span>
+              </button>
+            </div>
+            <div class="sort-wrapper">
+              <span>Trier par</span>
+              <select class="sort-select">
+                <option value="trier">Trier</option>
+                <option value="pertinence-croissante">Pertinence croissante</option>
+                <option value="prix-croissant">Prix croissant</option>
+                <option value="prix-décroissant">Prix décroissant</option>
+              </select>
+            </div>
+            <div class="result">
+              <span>8 produits</span>
+            </div>
+          </div>
+        </div>
+        <div class="product-list">
+          <div class="container">
+            <div class="product-table">
+              <div class="product-wrapper">
+                <a href="#" class="card">
+                  <div class="card__image">
+                    <img src="assets/img/products/product-1.jpg" alt="Product Preview">
+                  </div>
+                  <h6 class="card__title">Jouet pour chats Cat Activity Fun Board Trixie</h6>
+                  <div class="card-info">
+                    <div class="card-stars">
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <span>4.80/5 (5)</span>
+                    </div>
+                    <p class="card__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem corrupti vero at tempore ex iste dicta, officia necessitatibus tenetur pariatur fuga modi itaque quas distinctio, esse ipsa blanditiis similique vel.</p>
+                  </div>
+                  <div class="price">
+                    à partir de <span>21,90 €</span>
+                  </div>
+                  <div href="#" class="details">
+                    <i class="icon-show"></i>
+                    <span>Plus de détails</span>
+                  </div>
+                </a>
+              </div>
+              <div class="product-wrapper">
+                <a href="#" class="card">
+                  <div class="card__image">
+                    <img src="assets/img/products/product-2.jpg" alt="Product Preview">
+                  </div>
+                  <h6 class="card__title">Jeu d'intelligence Pet Enigma N°11 Savic pour chien ou chat</h6>
+                  <div class="card-info">
+                    <div class="card-stars">
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <span>5/5 (1)</span>
+                    </div>
+                    <ul class="card-list">
+                      <li class="card-item">
+                        <i class="icon-next"></i>
+                        <p><span>Difficulte:</span> Niveau 2 - Intermédiaire</p>
+                      </li>
+                      <li class="card-item">
+                        <i class="icon-next"></i>
+                        <p><span>Consistance:</span> Dur</p>
+                      </li>
+                      <li class="card-item">
+                        <i class="icon-next"></i>
+                        <p><span>Forme de jouet:</span> Plateau</p>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="price">
+                    à partir de <span>21,90 €</span>
+                  </div>
+                  <div href="#" class="details">
+                    <i class="icon-show"></i>
+                    <span>Plus de détails</span>
+                  </div>
+                </a>
+              </div>
+              <div class="product-wrapper">
+                <a href="#" class="card">
+                  <div class="card__image">
+                    <img src="assets/img/products/product-3.jpg" alt="Product Preview">
+                  </div>
+                  <h6 class="card__title">Labyrinthe à aliments pour chat Cat it Senses 2.0</h6>
+                  <div class="card-info">
+                    <div class="card-stars">
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star ng-star-inserted"></i>
+                      <span>4.56/5 (9)</span>
+                    </div>
+                    <div class="card-slider">
+                      <div>
+                        <p>Joli et super efficace pour se nourrir en quantite raisonnable tout en s'amusant.Aucune plainte de notre chatonne, au contraire ! elle est en train de retrouver un poids normal:)</p>
+                      </div>
+                      <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, in ut? Aliquid praesentium est sint nihil obcaecati consequuntur possimus autem ut cumque labore earum voluptatem tempore, soluta ullam, nobis rem?</p>
+                      </div>
+                      <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, in ut? Aliquid praesentium est sint nihil obcaecati consequuntur possimus autem ut cumque labore earum voluptatem tempore, soluta ullam, nobis rem?</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="price">
+                    à partir de <span>21,90 €</span>
+                  </div>
+                  <div href="#" class="details">
+                    <i class="icon-show"></i>
+                    <span>Plus de détails</span>
+                  </div>
+                </a>
+              </div>
+              <div class="product-wrapper">
+                <a href="#" class="card">
+                  <div class="card__image">
+                    <img src="assets/img/products/product-1.jpg" alt="Product Preview">
+                  </div>
+                  <h6 class="card__title">Jouet pour chats Cat Activity Fun Board Trixie</h6>
+                  <div class="card-info">
+                    <div class="card-stars">
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <span>4.80/5 (5)</span>
+                    </div>
+                    <p class="card__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem corrupti vero at tempore ex iste dicta, officia necessitatibus tenetur pariatur fuga modi itaque quas distinctio, esse ipsa blanditiis similique vel.</p>
+                  </div>
+                  <div class="price">
+                    à partir de <span>21,90 €</span>
+                  </div>
+                  <div href="#" class="details">
+                    <i class="icon-show"></i>
+                    <span>Plus de détails</span>
+                  </div>
+                </a>
+              </div>
+              <div class="product-wrapper">
+                <a href="#" class="card">
+                  <div class="card__image">
+                    <img src="assets/img/products/product-2.jpg" alt="Product Preview">
+                  </div>
+                  <h6 class="card__title">Jeu d'intelligence Pet Enigma N°11 Savic pour chien ou chat</h6>
+                  <div class="card-info">
+                    <div class="card-stars">
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <span>5/5 (1)</span>
+                    </div>
+                    <ul class="card-list">
+                      <li class="card-item">
+                        <i class="icon-next"></i>
+                        <p><span>Difficulte:</span> Niveau 2 - Intermédiaire</p>
+                      </li>
+                      <li class="card-item">
+                        <i class="icon-next"></i>
+                        <p><span>Consistance:</span> Dur</p>
+                      </li>
+                      <li class="card-item">
+                        <i class="icon-next"></i>
+                        <p><span>Forme de jouet:</span> Plateau</p>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="price">
+                    à partir de <span>21,90 €</span>
+                  </div>
+                  <div href="#" class="details">
+                    <i class="icon-show"></i>
+                    <span>Plus de détails</span>
+                  </div>
+                </a>
+              </div>
+              <div class="product-wrapper">
+                <a href="#" class="card">
+                  <div class="card__image">
+                    <img src="assets/img/products/product-3.jpg" alt="Product Preview">
+                  </div>
+                  <h6 class="card__title">Labyrinthe à aliments pour chat Cat it Senses 2.0</h6>
+                  <div class="card-info">
+                    <div class="card-stars">
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star ng-star-inserted"></i>
+                      <span>4.56/5 (9)</span>
+                    </div>
+                    <div class="card-slider">
+                      <div>
+                        <p>Joli et super efficace pour se nourrir en quantite raisonnable tout en s'amusant.Aucune plainte de notre chatonne, au contraire ! elle est en train de retrouver un poids normal:)</p>
+                      </div>
+                      <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, in ut? Aliquid praesentium est sint nihil obcaecati consequuntur possimus autem ut cumque labore earum voluptatem tempore, soluta ullam, nobis rem?</p>
+                      </div>
+                      <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, in ut? Aliquid praesentium est sint nihil obcaecati consequuntur possimus autem ut cumque labore earum voluptatem tempore, soluta ullam, nobis rem?</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="price">
+                    à partir de <span>21,90 €</span>
+                  </div>
+                  <div href="#" class="details">
+                    <i class="icon-show"></i>
+                    <span>Plus de détails</span>
+                  </div>
+                </a>
+              </div>
+              <div class="product-wrapper">
+                <a href="#" class="card">
+                  <div class="card__image">
+                    <img src="assets/img/products/product-1.jpg" alt="Product Preview">
+                  </div>
+                  <h6 class="card__title">Jouet pour chats Cat Activity Fun Board Trixie</h6>
+                  <div class="card-info">
+                    <div class="card-stars">
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <span>4.80/5 (5)</span>
+                    </div>
+                    <p class="card__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem corrupti vero at tempore ex iste dicta, officia necessitatibus tenetur pariatur fuga modi itaque quas distinctio, esse ipsa blanditiis similique vel.</p>
+                  </div>
+                  <div class="price">
+                    à partir de <span>21,90 €</span>
+                  </div>
+                  <div href="#" class="details">
+                    <i class="icon-show"></i>
+                    <span>Plus de détails</span>
+                  </div>
+                </a>
+              </div>
+              <div class="product-wrapper">
+                <a href="#" class="card">
+                  <div class="card__image">
+                    <img src="assets/img/products/product-2.jpg" alt="Product Preview">
+                  </div>
+                  <h6 class="card__title">Jeu d'intelligence Pet Enigma N°11 Savic pour chien ou chat</h6>
+                  <div class="card-info">
+                    <div class="card-stars">
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <span>5/5 (1)</span>
+                    </div>
+                    <ul class="card-list">
+                      <li class="card-item">
+                        <i class="icon-next"></i>
+                        <p><span>Difficulte:</span> Niveau 2 - Intermédiaire</p>
+                      </li>
+                      <li class="card-item">
+                        <i class="icon-next"></i>
+                        <p><span>Consistance:</span> Dur</p>
+                      </li>
+                      <li class="card-item">
+                        <i class="icon-next"></i>
+                        <p><span>Forme de jouet:</span> Plateau</p>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="price">
+                    à partir de <span>21,90 €</span>
+                  </div>
+                  <div href="#" class="details">
+                    <i class="icon-show"></i>
+                    <span>Plus de détails</span>
+                  </div>
+                </a>
+              </div>
+              <div class="product-wrapper">
+                <a href="#" class="card">
+                  <div class="card__image">
+                    <img src="assets/img/products/product-3.jpg" alt="Product Preview">
+                  </div>
+                  <h6 class="card__title">Labyrinthe à aliments pour chat Cat it Senses 2.0</h6>
+                  <div class="card-info">
+                    <div class="card-stars">
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star ng-star-inserted"></i>
+                      <span>4.56/5 (9)</span>
+                    </div>
+                    <div class="card-slider">
+                      <div>
+                        <p>Joli et super efficace pour se nourrir en quantite raisonnable tout en s'amusant.Aucune plainte de notre chatonne, au contraire ! elle est en train de retrouver un poids normal:)</p>
+                      </div>
+                      <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, in ut? Aliquid praesentium est sint nihil obcaecati consequuntur possimus autem ut cumque labore earum voluptatem tempore, soluta ullam, nobis rem?</p>
+                      </div>
+                      <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, in ut? Aliquid praesentium est sint nihil obcaecati consequuntur possimus autem ut cumque labore earum voluptatem tempore, soluta ullam, nobis rem?</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="price">
+                    à partir de <span>21,90 €</span>
+                  </div>
+                  <div href="#" class="details">
+                    <i class="icon-show"></i>
+                    <span>Plus de détails</span>
+                  </div>
+                </a>
+              </div>
+              <div class="product-wrapper">
+                <a href="#" class="card">
+                  <div class="card__image">
+                    <img src="assets/img/products/product-1.jpg" alt="Product Preview">
+                  </div>
+                  <h6 class="card__title">Jouet pour chats Cat Activity Fun Board Trixie</h6>
+                  <div class="card-info">
+                    <div class="card-stars">
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <span>4.80/5 (5)</span>
+                    </div>
+                    <p class="card__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem corrupti vero at tempore ex iste dicta, officia necessitatibus tenetur pariatur fuga modi itaque quas distinctio, esse ipsa blanditiis similique vel.</p>
+                  </div>
+                  <div class="price">
+                    à partir de <span>21,90 €</span>
+                  </div>
+                  <div href="#" class="details">
+                    <i class="icon-show"></i>
+                    <span>Plus de détails</span>
+                  </div>
+                </a>
+              </div>
+              <div class="product-wrapper">
+                <a href="#" class="card">
+                  <div class="card__image">
+                    <img src="assets/img/products/product-2.jpg" alt="Product Preview">
+                  </div>
+                  <h6 class="card__title">Jeu d'intelligence Pet Enigma N°11 Savic pour chien ou chat</h6>
+                  <div class="card-info">
+                    <div class="card-stars">
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <span>5/5 (1)</span>
+                    </div>
+                    <ul class="card-list">
+                      <li class="card-item">
+                        <i class="icon-next"></i>
+                        <p><span>Difficulte:</span> Niveau 2 - Intermédiaire</p>
+                      </li>
+                      <li class="card-item">
+                        <i class="icon-next"></i>
+                        <p><span>Consistance:</span> Dur</p>
+                      </li>
+                      <li class="card-item">
+                        <i class="icon-next"></i>
+                        <p><span>Forme de jouet:</span> Plateau</p>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="price">
+                    à partir de <span>21,90 €</span>
+                  </div>
+                  <div href="#" class="details">
+                    <i class="icon-show"></i>
+                    <span>Plus de détails</span>
+                  </div>
+                </a>
+              </div>
+              <div class="product-wrapper">
+                <a href="#" class="card">
+                  <div class="card__image">
+                    <img src="assets/img/products/product-3.jpg" alt="Product Preview">
+                  </div>
+                  <h6 class="card__title">Labyrinthe à aliments pour chat Cat it Senses 2.0</h6>
+                  <div class="card-info">
+                    <div class="card-stars">
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star ng-star-inserted"></i>
+                      <span>4.56/5 (9)</span>
+                    </div>
+                    <div class="card-slider">
+                      <div>
+                        <p>Joli et super efficace pour se nourrir en quantite raisonnable tout en s'amusant.Aucune plainte de notre chatonne, au contraire ! elle est en train de retrouver un poids normal:)</p>
+                      </div>
+                      <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, in ut? Aliquid praesentium est sint nihil obcaecati consequuntur possimus autem ut cumque labore earum voluptatem tempore, soluta ullam, nobis rem?</p>
+                      </div>
+                      <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, in ut? Aliquid praesentium est sint nihil obcaecati consequuntur possimus autem ut cumque labore earum voluptatem tempore, soluta ullam, nobis rem?</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="price">
+                    à partir de <span>21,90 €</span>
+                  </div>
+                  <div href="#" class="details">
+                    <i class="icon-show"></i>
+                    <span>Plus de détails</span>
+                  </div>
+                </a>
+              </div>
+              <div class="product-wrapper">
+                <a href="#" class="card">
+                  <div class="card__image">
+                    <img src="assets/img/products/product-1.jpg" alt="Product Preview">
+                  </div>
+                  <h6 class="card__title">Jouet pour chats Cat Activity Fun Board Trixie</h6>
+                  <div class="card-info">
+                    <div class="card-stars">
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <span>4.80/5 (5)</span>
+                    </div>
+                    <p class="card__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem corrupti vero at tempore ex iste dicta, officia necessitatibus tenetur pariatur fuga modi itaque quas distinctio, esse ipsa blanditiis similique vel.</p>
+                  </div>
+                  <div class="price">
+                    à partir de <span>21,90 €</span>
+                  </div>
+                  <div href="#" class="details">
+                    <i class="icon-show"></i>
+                    <span>Plus de détails</span>
+                  </div>
+                </a>
+              </div>
+              <div class="product-wrapper">
+                <a href="#" class="card">
+                  <div class="card__image">
+                    <img src="assets/img/products/product-2.jpg" alt="Product Preview">
+                  </div>
+                  <h6 class="card__title">Jeu d'intelligence Pet Enigma N°11 Savic pour chien ou chat</h6>
+                  <div class="card-info">
+                    <div class="card-stars">
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <span>5/5 (1)</span>
+                    </div>
+                    <ul class="card-list">
+                      <li class="card-item">
+                        <i class="icon-next"></i>
+                        <p><span>Difficulte:</span> Niveau 2 - Intermédiaire</p>
+                      </li>
+                      <li class="card-item">
+                        <i class="icon-next"></i>
+                        <p><span>Consistance:</span> Dur</p>
+                      </li>
+                      <li class="card-item">
+                        <i class="icon-next"></i>
+                        <p><span>Forme de jouet:</span> Plateau</p>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="price">
+                    à partir de <span>21,90 €</span>
+                  </div>
+                  <div href="#" class="details">
+                    <i class="icon-show"></i>
+                    <span>Plus de détails</span>
+                  </div>
+                </a>
+              </div>
+              <div class="product-wrapper">
+                <a href="#" class="card">
+                  <div class="card__image">
+                    <img src="assets/img/products/product-3.jpg" alt="Product Preview">
+                  </div>
+                  <h6 class="card__title">Labyrinthe à aliments pour chat Cat it Senses 2.0</h6>
+                  <div class="card-info">
+                    <div class="card-stars">
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star"></i>
+                      <i class="icon-star ng-star-inserted"></i>
+                      <span>4.56/5 (9)</span>
+                    </div>
+                    <div class="card-slider">
+                      <div>
+                        <p>Joli et super efficace pour se nourrir en quantite raisonnable tout en s'amusant.Aucune plainte de notre chatonne, au contraire ! elle est en train de retrouver un poids normal:)</p>
+                      </div>
+                      <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, in ut? Aliquid praesentium est sint nihil obcaecati consequuntur possimus autem ut cumque labore earum voluptatem tempore, soluta ullam, nobis rem?</p>
+                      </div>
+                      <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, in ut? Aliquid praesentium est sint nihil obcaecati consequuntur possimus autem ut cumque labore earum voluptatem tempore, soluta ullam, nobis rem?</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="price">
+                    à partir de <span>21,90 €</span>
+                  </div>
+                  <div href="#" class="details">
+                    <i class="icon-show"></i>
+                    <span>Plus de détails</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pagination">
+          <div class="container">
+            <ul class="pagination-list">
+              <li class="pagination-item">
+                <a href="#" class="pagination__link active">1</a>
+              </li>
+              <li class="pagination-item">
+                <a href="#" class="pagination__link">2</a>
+              </li>
+              <li class="pagination-item">
+                <a href="#" class="pagination__link">3</a>
+              </li>
+              <li class="pagination-item">
+                <a href="#" class="pagination__link">4</a>
+              </li>
+              <li class="pagination-item">
+                <a href="#" class="pagination__link">5</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="info">
+          <div class="container">
+            <div class="info-wrapper">
+              <div class="info-description">
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                  Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                  Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
+                  Quis autem vel eumiure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+                </p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure doloremque hic debitis itaque veritatis illo fuga! Facere, odit id! Eius voluptatem iure minima. Eveniet maiores laudantium iure enim similique quo.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="suggestions">
+          <div class="container">
+            <h2>Vous aimerez aussi:</h2>
+            <div class="suggestions-table">
+              <div class="suggestions-wrapper">
+                <a href="#" class="suggestions__link">
+                  Jouet distributeur de croquettes
+                </a>
+              </div>
+              <div class="suggestions-wrapper">
+                <a href="#" class="suggestions__link">
+                  Jouet chàton
+                </a>
+              </div>
+              <div class="suggestions-wrapper">
+                <a href="#" class="suggestions__link">
+                  Jouet distributeur de croquettes
+                </a>
+              </div>
+              <div class="suggestions-wrapper">
+                <a href="#" class="suggestions__link">
+                  Jouet chàton
+                </a>
+              </div>
+              <div class="suggestions-wrapper">
+                <a href="#" class="suggestions__link">
+                  Jouet distributeur de croquettes
+                </a>
+              </div>
+              <div class="suggestions-wrapper">
+                <a href="#" class="suggestions__link">
+                  Jouet chàton
+                </a>
+              </div>
+              <div class="suggestions-wrapper">
+                <a href="#" class="suggestions__link">
+                  Jouet distributeur de croquettes
+                </a>
+              </div>
+              <div class="suggestions-wrapper">
+                <a href="#" class="suggestions__link">
+                  Jouet chàton
+                </a>
+              </div>
+              <div class="suggestions-wrapper">
+                <a href="#" class="suggestions__link">
+                  Jouet distributeur de croquettes
+                </a>
+              </div>
+              <div class="suggestions-wrapper">
+                <a href="#" class="suggestions__link">
+                  Jouet chàton
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="benefits">
+        <div class="container">
+          <div class="benefits-table">
+            <div class="benefits-wrapper">
+              <div class="benefits-card">
+                <i class="icon-truck"></i>
+                <span>Livraison 24/72h</span>
+                <p>Gratuite à partir de 49 € d'achats en france métropolitaine</p>
+              </div>
+            </div>
+            <div class="benefits-wrapper">
+              <div class="benefits-card">
+                <i class="icon-lock"></i>
+                <span>Paiement sécurisé</span>
+                <p>Visa, Mastercard, American Express, Paypal, Chèque ou Virement</p>
+              </div>
+            </div>
+            <div class="benefits-wrapper">
+              <div class="benefits-card">
+                <i class="icon-sync"></i>
+                <span>Satisfaction garantie</span>
+                <p>Vous pouvez nous retourner vos articles 14 jours après votre commande</p>
+              </div>
+            </div>
+            <div class="benefits-wrapper">
+              <div class="benefits-card">
+                <i class="icon-check"></i>
+                <span>Produits en stock</span>
+                <p>GExpédition le jour-même pour toute commande passée avant 14h</p>
+              </div>
+            </div>
+            <div class="benefits-wrapper">
+              <div class="benefits-card">
+                <i class="icon-chat"></i>
+                <span>Tchat 7j / 7</span>
+                <p>Nous répondons à vos questions en direct de 8h30 à 22h30</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="reviews">
+        <div class="container">
+          <iframe title="Avis vérifié" id='AV_widget_iframe' frameBorder="0" width="100%" height="100%"
+            src="//cl.avis-verifies.com/fr/cache/0/2/d/02d7121f-2e7e-d304-09c5-495ba1f3a058/widget4/02d7121f-2e7e-d304-09c5-495ba1f3a058horizontal_index.html">
+          </iframe>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-table">
+          <div class="footer-wrapper w-50 mb-4">
+            <div class="dropdown__trigger">
+              <h5>Nourrir son Animal</h5>
+              <i class="icon-next"></i>
+            </div>
+            <div class="dropdown-list">
+              <ul class="footer-list">
+                <li class="footer-item">
+                  <a href="#" class="footer__link"><i class="icon-next"></i> Pourquoi acheter du premium ?</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer__link"><i class="icon-next"></i> Bien nourrir son Poisson</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer__link"><i class="icon-next"></i> Bien nourrir son Chien</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer__link"><i class="icon-next"></i> Bien nourrir son Oiseau</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer__link"><i class="icon-next"></i> Bien nourrir son Chat</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer__link"><i class="icon-next"></i> Matières & ingrédients utilisés</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer__link"><i class="icon-next"></i> Bien nourrir son Rongeur</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer__link"><i class="icon-next"></i> Les bienfaits des animaux !</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-wrapper w-50 mb-4">
+            <div class="dropdown__trigger">
+              <h5>Les Amis de la Ferme</h5>
+              <i class="icon-next"></i>
+            </div>
+            <div class="dropdown-list">
+              <ul class="footer-list">
+                <li class="footer-item">
+                  <a href="#" class="footer__link"><i class="icon-next"></i> Societe Protectrice des Animaux</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer__link"><i class="icon-next"></i> Wamiz, tout sur les animaux</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer__link"><i class="icon-next"></i> Fondation 30 Millions d'Amis</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer__link"><i class="icon-next"></i> Les Gamelles du coeur</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer__link"><i class="icon-next"></i> Fondation Brigitte Bardot</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer__link"><i class="icon-next"></i> La Facco</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer__link"><i class="icon-next"></i> Animaux.fr - Adopter un animal</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer__link"><i class="icon-next"></i> Protection mondiale des animaux</a>
+                </li>
+                <li class="footer-item"></li>
+                <li class="footer-item">
+                  <a href="#" class="footer__link"><i class="icon-next"></i> Ordre des vétérinaires</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-wrapper mt-5">
+            <div class="dropdown__trigger">
+              <h5>La société</h5>
+              <i class="icon-next"></i>
+            </div>
+            <div class="dropdown-list">
+              <ul class="footer-list">
+                <li class="footer-item">
+                  <a href="#" class="footer__link"><i class="icon-next"></i> Qui sommes-nous ?</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer__link"><i class="icon-next"></i> FAQ</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer__link"><i class="icon-next"></i> Conditions générales de vente</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer__link"><i class="icon-next"></i> Recrutement</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer__link"><i class="icon-next"></i> Mentions légales</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer__link"><i class="icon-next"></i> Contactez-nous</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-wrapper mt-5">
+            <div class="dropdown__trigger">
+              <h5>Les services</h5>
+              <i class="icon-next"></i>
+            </div>
+            <div class="dropdown-list">
+              <ul class="footer-list">
+                <li class="footer-item">
+                  <a href="#" class="footer__link"><i class="icon-next"></i> Livraison</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer__link"><i class="icon-next"></i> Paiement sécurisé</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer__link"><i class="icon-next"></i> Options de livraison</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer__link"><i class="icon-next"></i> Service de Rappel</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer__link"><i class="icon-next"></i> Retours</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer__link"><i class="icon-next"></i> Simulateur de Ration</a>
+                </li>
+                <li class="footer-item"></li>
+                <li class="footer-item">
+                  <a href="#" class="footer__link"><i class="icon-next"></i> Fiche identité Animal</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-wrapper mt-5">
+            <div class="dropdown__trigger">
+              <h5>Les Avantages Client</h5>
+              <i class="icon-next"></i>
+            </div>
+            <div class="dropdown-list">
+              <ul class="footer-list">
+                <li class="footer-item">
+                  <a href="#" class="footer__link"><i class="icon-next"></i> Offre de Bienvenue !</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer__link"><i class="icon-next"></i> Programme de Parrainage</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer__link"><i class="icon-next"></i> Programme Fidélité</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer__link"><i class="icon-next"></i> Le Pass Liberté !</a>
+                </li>
+                <li class="footer-item"></li>
+                <li class="footer-item">
+                  <a href="#" class="footer__link"><i class="icon-next"></i> Client Privilège</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  
+  <!-- Link Script's -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/ui.min.js"></script>
+  <script src="assets/js/slick.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
