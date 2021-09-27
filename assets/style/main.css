@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @font-face {
   font-family: lfda;
-  src: local("Helvetica, Arial"), url(/assets/fonts/lfda.ttf) format("truetype");
+  src: url(../fonts/lfda.ttf) format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -472,7 +472,7 @@ button {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-image: url(/assets/img/vichy.png);
+  background-image: url(../img/vichy.png);
   background-repeat: repeat;
   background-size: auto;
   background-position: top center;
@@ -799,7 +799,7 @@ button {
 }
 
 .nav__trigger:hover {
-  background-image: url(/assets/img/vichy.png);
+  background-image: url(../img/vichy.png);
   background-color: #cd3543;
   background-repeat: repeat;
   background-size: auto;
@@ -820,7 +820,7 @@ button {
 }
 
 .nav__trigger.chats:hover {
-  background-image: url(/assets/img/nav/bg_chats.png);
+  background-image: url(../img/nav/bg_chats.png);
   background-color: #61a4a2;
 }
 
@@ -829,7 +829,7 @@ button {
 }
 
 .nav__trigger.rongeurs:hover {
-  background-image: url(/assets/img/nav/bg_rongeurs.png);
+  background-image: url(../img/nav/bg_rongeurs.png);
   background-color: #d75941;
 }
 
@@ -838,7 +838,7 @@ button {
 }
 
 .nav__trigger.poissons:hover {
-  background-image: url(/assets/img/nav/bg_poissons.png);
+  background-image: url(../img/nav/bg_poissons.png);
   background-color: #5296aa;
 }
 
@@ -847,7 +847,7 @@ button {
 }
 
 .nav__trigger.oiseaux:hover {
-  background-image: url(/assets/img/nav/bg_oiseaux.png);
+  background-image: url(../img/nav/bg_oiseaux.png);
   background-color: #a69c00;
 }
 
@@ -856,7 +856,7 @@ button {
 }
 
 .nav__trigger.elevage:hover {
-  background-image: url(/assets/img/nav/bg_elevage.png);
+  background-image: url(../img/nav/bg_elevage.png);
   background-color: #84a25a;
 }
 
@@ -865,7 +865,7 @@ button {
 }
 
 .nav__trigger.bassins:hover {
-  background-image: url(/assets/img/nav/bg_bassins.png);
+  background-image: url(../img/nav/bg_bassins.png);
   background-color: #5e81ac;
 }
 
@@ -874,7 +874,7 @@ button {
 }
 
 .nav__trigger.reptiles:hover {
-  background-image: url(/assets/img/nav/bg_reptiles.png);
+  background-image: url(../img/nav/bg_reptiles.png);
   background-color: #648543;
 }
 
@@ -883,7 +883,7 @@ button {
 }
 
 .nav__trigger.promos:hover {
-  background-image: url(/assets/img/nav/bg_promos.png);
+  background-image: url(../img/nav/bg_promos.png);
   background-color: #e9a343;
 }
 
@@ -1890,7 +1890,7 @@ button {
 .footer {
   border-top: 2px solid #3a5a19;
   background-color: #3a5a19;
-  background-image: url(/assets/img/footer.jpg);
+  background-image: url(../img/footer.jpg);
   background-repeat: repeat-x;
   background-size: auto;
   background-position: left top;
